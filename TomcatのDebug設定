@@ -1,0 +1,3 @@
+※Tomcatのbinフォルダ配下にある「startup.bat」ファイルを編集する。
+　・変更前：call "%EXECUTABLE%" start %CMD_LINE_ARGS%
+　・変更後：call "%EXECUTABLE%" jpda start %CMD_LINE_ARGS%
